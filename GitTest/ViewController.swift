@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var mess: UILabel!
     
-    var contatore = 0
+    var contatoreP = 0
     
     
     override func viewDidLoad() {
@@ -24,8 +24,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func puls(_ sender: Any) {
-        contatore = contatore + 1
-        mess.text = "hai premuto \(contatore) volte"
+        contatoreP = contatoreP + 1
+        mess.text = "hai premuto \(contatoreP) volte"
     }
     
 
